@@ -11,14 +11,16 @@
 		885EAF4A29E4B91C006C9467 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885EAF4929E4B91C006C9467 /* ContentView.swift */; };
 		885EAF4C29E4B920006C9467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885EAF4B29E4B920006C9467 /* Assets.xcassets */; };
 		885EAF4F29E4B920006C9467 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885EAF4E29E4B920006C9467 /* Preview Assets.xcassets */; };
+		885EAF5629E4B97F006C9467 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885EAF5529E4B97F006C9467 /* home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		885EAF4429E4B91C006C9467 /* 3d parallax card swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3d parallax card swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		885EAF4429E4B91C006C9467 /* parallax card swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "parallax card swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		885EAF4729E4B91C006C9467 /* _d_parallax_card_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _d_parallax_card_swiftuiApp.swift; sourceTree = "<group>"; };
 		885EAF4929E4B91C006C9467 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		885EAF4B29E4B920006C9467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		885EAF4E29E4B920006C9467 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		885EAF5529E4B97F006C9467 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,7 @@
 		885EAF3B29E4B91C006C9467 = {
 			isa = PBXGroup;
 			children = (
-				885EAF4629E4B91C006C9467 /* 3d parallax card swiftui */,
+				885EAF4629E4B91C006C9467 /* d parallax card swiftui */,
 				885EAF4529E4B91C006C9467 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +45,21 @@
 		885EAF4529E4B91C006C9467 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				885EAF4429E4B91C006C9467 /* 3d parallax card swiftui.app */,
+				885EAF4429E4B91C006C9467 /* parallax card swiftui.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		885EAF4629E4B91C006C9467 /* 3d parallax card swiftui */ = {
+		885EAF4629E4B91C006C9467 /* d parallax card swiftui */ = {
 			isa = PBXGroup;
 			children = (
 				885EAF4729E4B91C006C9467 /* _d_parallax_card_swiftuiApp.swift */,
 				885EAF4929E4B91C006C9467 /* ContentView.swift */,
+				885EAF5529E4B97F006C9467 /* home.swift */,
 				885EAF4B29E4B920006C9467 /* Assets.xcassets */,
 				885EAF4D29E4B920006C9467 /* Preview Content */,
 			);
-			path = "3d parallax card swiftui";
+			path = "d parallax card swiftui";
 			sourceTree = "<group>";
 		};
 		885EAF4D29E4B920006C9467 /* Preview Content */ = {
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		885EAF4329E4B91C006C9467 /* 3d parallax card swiftui */ = {
+		885EAF4329E4B91C006C9467 /* parallax card swiftui */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 885EAF5229E4B920006C9467 /* Build configuration list for PBXNativeTarget "3d parallax card swiftui" */;
+			buildConfigurationList = 885EAF5229E4B920006C9467 /* Build configuration list for PBXNativeTarget "parallax card swiftui" */;
 			buildPhases = (
 				885EAF4029E4B91C006C9467 /* Sources */,
 				885EAF4129E4B91C006C9467 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "3d parallax card swiftui";
+			name = "parallax card swiftui";
 			productName = "3d parallax card swiftui";
-			productReference = 885EAF4429E4B91C006C9467 /* 3d parallax card swiftui.app */;
+			productReference = 885EAF4429E4B91C006C9467 /* parallax card swiftui.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 885EAF3F29E4B91C006C9467 /* Build configuration list for PBXProject "3d parallax card swiftui" */;
+			buildConfigurationList = 885EAF3F29E4B91C006C9467 /* Build configuration list for PBXProject "parallax card swiftui" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				885EAF4329E4B91C006C9467 /* 3d parallax card swiftui */,
+				885EAF4329E4B91C006C9467 /* parallax card swiftui */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885EAF5629E4B97F006C9467 /* home.swift in Sources */,
 				885EAF4A29E4B91C006C9467 /* ContentView.swift in Sources */,
 				885EAF4829E4B91C006C9467 /* _d_parallax_card_swiftuiApp.swift in Sources */,
 			);
@@ -266,7 +270,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"3d parallax card swiftui/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"d parallax card swiftui/Preview Content\"";
 				DEVELOPMENT_TEAM = H39KTTHR8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"3d parallax card swiftui/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"d parallax card swiftui/Preview Content\"";
 				DEVELOPMENT_TEAM = H39KTTHR8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -320,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		885EAF3F29E4B91C006C9467 /* Build configuration list for PBXProject "3d parallax card swiftui" */ = {
+		885EAF3F29E4B91C006C9467 /* Build configuration list for PBXProject "parallax card swiftui" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				885EAF5029E4B920006C9467 /* Debug */,
@@ -329,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		885EAF5229E4B920006C9467 /* Build configuration list for PBXNativeTarget "3d parallax card swiftui" */ = {
+		885EAF5229E4B920006C9467 /* Build configuration list for PBXNativeTarget "parallax card swiftui" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				885EAF5329E4B920006C9467 /* Debug */,
